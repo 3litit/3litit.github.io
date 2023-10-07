@@ -1,0 +1,160 @@
+/* SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+1rem = 10px
+
+color
+#00b3db
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+section > .container {
+  background-color: orangered;
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+html {
+  /* font-size: 10px;
+  10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a4000;
+  border-bottom: 0.8rem solid #087f5b;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+/* banner section */
+#banner-img {
+  width: 100%;
+  display: none;
+}
+
+#banner-text {
+  display: none;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  position: absolute;
+}
+
+#dr {
+  font-size: 3.6rem;
+  font-weight: lighter;
+}
+
+#dt {
+  font-size: small;
+  margin: 4.5rem;
+}
+
+/* nav-bar section */
+#nav-bar {
+  text-align: center;
+}
+
+/* chữ giữa nav-bar icon  */
+.topnav-a {
+  display: inline-block;
+  border: 0.2rem groove rgba(0, 0, 0, 0.052);
+  border-top: 0;
+  border-bottom: 0;
+  text-decoration: none;
+  padding: 1.8rem 1.8rem 1.8rem 1.8rem;
+  color: black;
+  font-size: 1.6rem;
+}
+
+#topnav-a {
+  vertical-align: middle;
+  line-height: 0.8;
+}
+
+#da {
+  margin: 0 1.5rem;
+  font-size: 2.3rem;
+}
+
+#df {
+  font-size: 1.2rem;
+  opacity: 0.3;
+}
+
+/* nav-bar icons  */
+.icon-user {
+  vertical-align: text-bottom;
+  margin-right: -1rem;
+  height: 1.8rem;
+  width: 3rem;
+  color: #00b3db;
+}
+
+/* about section */
+#about > .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* job-info section */
+#job-info > .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* certificate-reward section  */
+#certificate {
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > img {
+  width: 50%;
+}
+
+/* project section  */
+#project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+/* footer section */
+#footer > .container {
+  display: flex;
+  justify-content: center;
+}

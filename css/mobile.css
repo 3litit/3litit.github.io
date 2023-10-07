@@ -1,0 +1,27 @@
+@media (max-width: 500px) {
+  #about > .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* job-info section */
+  #job-info > .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  #certificate {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+
+  #project-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    font-size: 1.5rem;
+  }
+}
