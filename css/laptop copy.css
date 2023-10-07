@@ -10,105 +10,6 @@ color
 #00b3db
 */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#nav-bar {
-  text-align: center;
-}
-
-section > .container {
-  background-color: orangered;
-  width: 1170px;
-  margin: auto;
-  display: block;
-
-  padding: 30px 50px;
-}
-
-html {
-  /* font-size: 10px;
-  10px / 16px = 0.625 = 62.5% */
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  color: #343a4000;
-  border-bottom: 0.8rem solid #087f5b;
-}
-
-.bg-grey {
-  background: #f7f7f7;
-}
-
-/* banner section */
-#banner-img {
-  width: 100%;
-}
-
-#banner-text {
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  position: absolute;
-}
-
-#dr {
-  font-size: 3.6rem;
-  font-weight: lighter;
-}
-
-#dt {
-  font-size: small;
-  margin: 4.5rem;
-}
-
-/* nav-bar section */
-#nav-bar {
-  text-align: center;
-}
-
-/* chữ giữa nav-bar icon  */
-.topnav-a {
-  display: inline-block;
-  border: 0.2rem groove rgba(0, 0, 0, 0.052);
-  border-top: 0;
-  border-bottom: 0;
-  text-decoration: none;
-  padding: 1.8rem 1.8rem 1.8rem 1.8rem;
-  color: black;
-  font-size: 1.6rem;
-}
-
-#topnav-a {
-  vertical-align: middle;
-  line-height: 0.8;
-}
-
-#da {
-  margin: 0 1.5rem;
-  font-size: 2.3rem;
-}
-
-#df {
-  font-size: 1.2rem;
-  opacity: 0.3;
-}
-
-/* nav-bar icons  */
-.icon-user {
-  vertical-align: text-bottom;
-  margin-right: -1rem;
-  height: 1.8rem;
-  width: 3rem;
-  color: #00b3db;
-}
-
 /* about section */
 #about {
   display: grid;
@@ -136,18 +37,6 @@ body {
   font-size: small;
   margin: 2.4rem 0 0 4rem;
   list-style: none;
-}
-
-/* about icons */
-.icons {
-  margin: 2rem 0 0 4rem;
-}
-
-.icon {
-  margin-left: 1.6rem;
-  color: #00b3db;
-  width: 2rem;
-  height: 1.6rem;
 }
 
 /* job-info section */
@@ -230,16 +119,6 @@ body {
 }
 
 /* icon trong phần sở thích  */
-.texts-icon {
-  border: 0.1rem solid #00b3db;
-  border-radius: 50%;
-}
-
-.text-icon {
-  align-content: center;
-  width: 3.5rem;
-  fill: #00b3db;
-}
 
 /* certificate-reward section  */
 #certificate-reward {
@@ -306,12 +185,6 @@ body {
 .project-title {
   border-bottom: 0.2rem groove rgba(0, 0, 0, 0.075);
   margin-top: 1.4rem;
-}
-
-.project-icon {
-  color: black;
-  margin-left: 3rem;
-  text-decoration: none;
 }
 
 .header {
