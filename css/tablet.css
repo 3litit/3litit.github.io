@@ -1,4 +1,27 @@
 @media (max-width: 768px) {
+  /* banner section  */
+  #banner-text {
+    top: 25%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    position: absolute;
+    text-align: center;
+  }
+
+  #banner h1 {
+    font-size: 2.2rem;
+  }
+
+  #banner span {
+    font-size: 1.1rem;
+  }
+  /* nav-bar section  */
+  #topnav-a {
+    display: none;
+  }
+
+  /* about section  */
   #about > .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -11,17 +34,21 @@
     gap: 2rem;
   }
 
-  #certificate {
-    gap: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
+  /* certificate-reward section  */
+  .flex > img {
+    width: 30%;
   }
 
-  #project-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    font-size: 1.5rem;
+  #certificate-reward h1 {
+    font-size: 2.2rem;
+  }
+
+  #certificate-reward p {
+    font-size: 1.4rem;
+  }
+
+  /* project section  */
+  #project-section h1 {
+    font-size: 2.2rem;
   }
 }
