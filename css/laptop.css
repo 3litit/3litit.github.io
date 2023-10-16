@@ -21,6 +21,8 @@ section > .container {
   margin: auto;
   display: block;
   padding: 30px 50px;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 html {
@@ -36,7 +38,6 @@ img {
 body {
   font-family: "Inter", sans-serif;
   color: #343a4000;
-  border-bottom: 0.8rem solid #087f5b;
 }
 
 .bg-grey {
@@ -44,264 +45,33 @@ body {
 }
 
 /* banner section */
-#banner-img {
-  width: 100%;
-}
-
 #banner-text {
-  text-align: center;
-  top: 40%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
   position: absolute;
   font-weight: lighter;
 }
 
-#banner span {
-  font-size: 1.3rem;
-}
-
-/* nav-bar section */
-#nav-bar {
-  text-align: center;
-}
-
-/* chữ giữa nav-bar icon  */
-.topnav-a {
-  display: inline-block;
-  border-left: 0.4rem solid rgba(0, 0, 0, 0.052);
-  border-right: 0.4rem solid rgba(0, 0, 0, 0.052);
-  color: black;
-  font-size: 1.6rem;
-}
-
-#topnav-a {
-  vertical-align: middle;
-  line-height: 0.8;
-}
-
-#nav-bar h3 {
-  margin: 0 1.5rem;
-  font-size: 2.3rem;
-}
-
-#nav-bar a {
-  font-size: 1.2rem;
-  opacity: 0.3;
-}
-
-/* nav-bar icons  */
-#nav-bar i {
-  vertical-align: text-bottom;
-  color: #00b3db;
-}
-
-/* about section */
-#about > .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#about h1 {
-  font-size: 2.5rem;
-  margin: 7.4rem 0 0 4rem;
-}
-
-.about-text {
-  font-size: 1.4rem;
-  opacity: 0.7;
-  line-height: 1.6;
-  margin: 2.4rem 0 0 4rem;
-  list-style: none;
-}
-
-/* about icons  */
-#about-icons {
-  margin: 2rem 0 2rem 4rem;
-}
-
-#about i {
-  font-size: 1.5rem;
-  margin-left: 1.5rem;
-}
-
 /* job-info section */
-#job-info > .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 2rem;
-  font-size: 1.4rem;
-  line-height: 1.6;
-  margin-top: 3rem;
-}
-
-.job-text {
-  border: 0.2rem groove rgba(0, 0, 0, 0.056);
-}
-
-#job-info h1 {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  font-size: 2.5rem;
-  margin: 5rem 4rem 6rem 4rem;
-}
-
-#job-info p {
-  opacity: 0.7;
-  text-decoration: none;
-}
-
-.job-info {
-  margin: 3rem 3rem 0 4rem;
-}
-
-.text-1 {
-  list-style: none;
-}
-
-.text-2 {
-  margin-top: 3rem;
-}
-
-.text-3 {
-  line-height: 1;
-  margin: 2.4rem 0 0 3rem;
-}
-
 .bue {
-  color: blue;
   font-size: 3rem;
-  margin-right: 1rem;
 }
 
 .gey {
-  color: grey;
   font-size: 3rem;
-  margin-right: 1rem;
 }
 
-/* sở thích text và icon  */
-#cvt {
-  gap: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 0 1rem;
-  text-align: center;
-}
-
-#cvt i {
-  padding: 1rem;
-  font-size: 2.6rem;
-  border: 0.2rem solid #00b3db;
-  border-radius: 50%;
-}
-
-/* certificate-reward section  */
-#certificate-reward {
-  margin-top: 3rem;
-}
-
-.section {
-  padding: 2rem 0 2rem 5rem;
-}
-
-/* style cho 3 bức ảnh cùng chữ  */
-#certificate {
-  gap: 2rem;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  align-content: center;
-}
-
+/* reward section and imgs */
 .flex {
   display: flex;
 }
 
-.flex > img {
+.reward-imgs {
   width: 40%;
 }
 
-/* style cho tấm hình dưới cùng với chữ  */
-#certificate-content {
-  margin-top: 2.5rem;
-}
-
-#certificate-reward p {
-  font-size: 1.4rem;
-}
-
-#certificate-reward li {
-  line-height: 0.8;
-  opacity: 0.7;
-  list-style: none;
-}
-
-#WEB-border {
-  border-right: 0.1rem groove orangered;
-}
-
-#certificate-border {
-  border-top: 0.1rem groove orangered;
-}
-
-/* project section  */
-#project-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-  font-size: 1.5rem;
-}
-
-.project-title {
-  border-bottom: 0.2rem groove rgba(0, 0, 0, 0.075);
-  margin-top: 1.4rem;
-}
-
-.project {
-  border: 0.2rem groove rgba(0, 0, 0, 0.075);
-}
-
-.header {
-  margin-left: 2.4rem;
-}
-
-#project-content a {
-  color: black;
-  text-decoration: none;
-}
-
-.number {
-  background-color: #00b3db;
-  border-radius: 30%;
-  color: #fff;
-}
-
-.text-5 {
-  display: grid;
-  grid-template-columns: 26% 74%;
-  opacity: 0.7;
-  border-top: 0.3rem groove rgba(0, 0, 0, 0.075);
-}
-
-.text-7 {
-  margin-left: 0.7rem;
-}
-
 /* footer section */
-#footer > .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-}
-
-#footer a {
-  font-size: 1.5rem;
-  opacity: 0.6;
-}
-
 #footer i {
   font-size: 2rem;
-  color: #00b3db;
 }

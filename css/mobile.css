@@ -1,123 +1,18 @@
-@media (max-width: 500px) {
-  /* banner section  */
-  #banner h1 {
-    font-size: 2rem;
-  }
-
-  #banner span {
-    font-size: 1rem;
-  }
-
-  /* nav-bar section  */
-  .topnav-a {
-    text-align: left;
-    border: none;
-    display: Block;
-  }
-
-  /* about section  */
-  #about > .container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  /* job-info section */
-  #job-info > .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-  /* certificate-reward section  */
-  #certificate {
-    gap: 2rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    align-content: center;
-  }
-
-  .flex > img {
-    margin-bottom: 0.8rem;
-  }
-
-  #certificate-content {
-    margin-top: 1.8rem;
-  }
-
-  #WEB-border {
-    border-bottom: 0.1rem groove orangered;
-    border-right: none;
-  }
-
-  #certificate-border {
-    border-bottom: 0.1rem groove orangered;
-  }
-
-  /* project section  */
-  #project-content {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 425px) {
-  /* about section */
-  #about h1 {
-    font-size: 2rem;
-    margin: 3.5rem 0 0 4rem;
-  }
-
-  .about-text {
+  /* banner section  */
+  #banner p {
     font-size: 1.2rem;
   }
 
-  /* job-info section */
-  #job-info h1 {
-    font-size: 2rem;
-  }
-
-  #job-info > .container {
-    font-size: 1.2rem;
-  }
-
-  #cvt {
-    gap: 0.3rem;
-    margin: 0 0.5rem;
-  }
-
-  #cvt i {
-    padding: 0.3rem;
+  #banner h1 {
     font-size: 2.3rem;
   }
 
-  /* certificate-reward section  */
-  #certificate-reward h1 {
-    font-size: 2rem;
-  }
-
-  #certificate-reward p {
-    font-size: 1.2rem;
-  }
-
-  /* project section  */
-  #project-content {
-    font-size: 1.2rem;
-  }
-
-  /* footer section */
-  #footer a {
-    font-size: 1.2rem;
-  }
-
-  #footer i {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 375px) {
-  /* job-info section */
-
-  #cvt {
-    font-size: 1rem;
+  #banner-text {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-weight: lighter;
   }
 }
